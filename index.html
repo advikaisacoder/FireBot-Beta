@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireBot</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="https://t3.ftcdn.net/jpg/02/84/46/60/360_F_284466038_lOHcM8pRGyigojkyV2M9CSQpimCTcqeD.jpg">
+</head>
+<body>
+    <div id="sscreen">
+        <div id="wscreen">
+            <h1>FireBot</h1>
+            <p>FireBot - Your personal AI helper, always here to assist you.</p>
+            <ul>
+                <li>Efficient</li>
+                <li>Intelligent</li>
+                <li>Always Available</li>
+                <li>Personalized for the best experience</li>
+                <li>Choose your theme - Coder, Scientist, or what? Your choice!</li>
+                <li>No API, No Dependencies, pure LLM</li>
+                <li>No downloads, no money, just free AI!</li>
+            </ul>
+            <button id="start-btn" class="btn" onclick="startBot()">Try it out</button>
+            <button id="login-btn" class="btn" onclick="signUpLogIn()">Sign Up, or log in</button>
+            <a onclick="goBack()" id="logolink">
+                <img src="https://t3.ftcdn.net/jpg/02/84/46/60/360_F_284466038_lOHcM8pRGyigojkyV2M9CSQpimCTcqeD.jpg" width="35px" id="logo" alt="FireBot Logo">
+                <span>FireBot</span>
+            </a>
+        </div>
+    </div>
+    <a onclick="goBack()" id="logolink">
+        <img src="https://t3.ftcdn.net/jpg/02/84/46/60/360_F_284466038_lOHcM8pRGyigojkyV2M9CSQpimCTcqeD.jpg" width="35px" id="logo" alt="FireBot Logo">
+        <span>FireBot</span>
+    </a>
+<input type="file" id="hiddenFileUpload" style="display: none;">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="brain.js"></script>
+</body>
+</html>
