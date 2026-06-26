@@ -1,7 +1,6 @@
 *{
     color:white;
     font-family:Calibri;
-    background-color: black;
 }
 body {
     display: flex;
@@ -15,6 +14,7 @@ body {
 }
 #sscreen ul li{
     text-align:left;
+    margin-left:700px;
 }
 .btn {
     background-color:white;
@@ -61,4 +61,28 @@ body {
 }
 #logolink span{
     margin-left:10px;
+}
+nav {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    color:white;
+    background-color: #4c4c4c33;
+    width:1800px;
+    justify-content:center;
+}
+nav span {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #0f0f0f33;
+}
+nav span:hover {
+    background-color: #6b6b6b;
+}
+nav span:active {
+    background-color: #dddddd;
+}
+a{
+    cursor: pointer;
+    text-decoration:underline;
 }

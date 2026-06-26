@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FireBot</title> 
+    <title>FireBot - FireAI</title> 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpeg" href="https://t3.ftcdn.net/jpg/02/84/46/60/360_F_284466038_lOHcM8pRGyigojkyV2M9CSQpimCTcqeD.jpg">
 </head>
 <body>
     <div id="sscreen">
         <div id="wscreen">
+            <nav>
+                <span id="h" onclick="goBack()">Home</span>
+                <span id="a" onclick="A()">About</span>
+                <span id="c" onclick="C()">Contact</span>
+                <span id="b" onclick="F()">Be a fellow dev</span>
+            </nav>
             <h1>FireBot</h1>
-            <p>FireBot - Your personal AI helper, always here to assist you.</p>
+           <p>FireBot - Your personal AI helper, always here to assist you.</p>
             <ul>
                 <li>Efficient</li>
                 <li>Intelligent</li>
@@ -34,7 +40,6 @@
         <span>FireBot</span>
     </a>
 <input type="file" id="hiddenFileUpload" style="display: none;">
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="brain.js"></script>
 </body>
